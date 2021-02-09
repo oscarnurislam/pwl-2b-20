@@ -12,8 +12,8 @@
 
 |  |  |
 |--|--|
-| NIM | **nim** |
-| Nama Lengkap | **nama** |
+| NIM | **1941720069** |
+| Nama Lengkap | **Oscar Nur Islam** |
 | Kelas | TI-2B |
 
 
