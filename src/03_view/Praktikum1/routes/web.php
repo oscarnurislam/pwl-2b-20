@@ -75,6 +75,6 @@ Route::get('/halaman-awal', function (){
         return view('about-us');
     });
     //cara memanggil di web localhost:8000/contact
-    Route::resource('contact', ContactController::class)->only([
+    Route::resource('contact-us', ContactController::class)->only([
         'index'
        ]);
