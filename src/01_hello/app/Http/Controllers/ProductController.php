@@ -80,8 +80,8 @@ class ProductController extends Controller
      */
     public function edit($id)
     {
-        $contact = Contact::find($id);
-        return view('contacts.edit', compact('contact'));        
+        $product = product::find($id);
+        return view('products.edit', compact('product'));        
     }
 
     /**

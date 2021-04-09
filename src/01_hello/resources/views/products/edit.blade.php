@@ -34,7 +34,7 @@
                 <label for="country">Inventory:</label>
                 {!! Form::text('inventory', null, ['class' => 'form-control']) !!}
             </div>               
-            <button type="submit" class="btn btn-primary">Create</button>
+            <button type="submit" class="btn btn-primary">Ubah</button>
         {!! Form::close()!!}
        </div>
 </div>
