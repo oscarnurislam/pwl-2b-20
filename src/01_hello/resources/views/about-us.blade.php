@@ -43,6 +43,9 @@ https://templatemo.com/tm-542-new-vision
                           <div class="collapse navbar-collapse tm-nav" id="navbarSupportedContent1">
                            <!-- Links -->
                            <ul class="navbar-nav mr-auto">
+                           <li class="nav-item ">
+                                <a class="nav-link tm-nav-link" href="dashboard">Dashboard <span class="sr-only">(current)</span></a>
+                              </li>
                               <li class="nav-item ">
                                 <a class="nav-link tm-nav-link" href="home">Home <span class="sr-only">(current)</span></a>
                               </li>

@@ -12,6 +12,7 @@
                     <div class="tm-site-header-left">
                         <i class="far fa-2x fa-eye tm-site-icon"></i>
                         <h1 class="tm-site-name">New Vision</h1>
+                        
                     </div>
                     <div class="tm-site-header-right tm-menu-container-outer">
 @section('container')
@@ -28,6 +29,9 @@
                         
                             <!-- Links -->
                             <ul class="navbar-nav mr-auto">
+                            <li class="nav-item ">
+                                <a class="nav-link tm-nav-link" href="dashboard">Dashboard <span class="sr-only">(current)</span></a>
+                              </li>
                               <li class="nav-item active">
                                 <a class="nav-link tm-nav-link" href="home">Home <span class="sr-only">(current)</span></a>
                               </li>
@@ -58,6 +62,9 @@
                 </div>
             </div>
         </div>
+
+        <style type="text/css">.right   { text-align: right;}</style>
+        <h5 class="right">Selamat datang di halaman dashboard, <strong>{{ Auth::user()->name }}</strong></h5>
         
         <div class="row">
             <div class="col-12">
@@ -217,6 +224,10 @@
 							</p>
                         </figcaption>
                     </figure>
+                </div>
+                <div class="card-body">
+                    
+                    <a href="{{ route('logout') }}" class="btn btn-danger">Logout</a>
                 </div>
             </section>
 

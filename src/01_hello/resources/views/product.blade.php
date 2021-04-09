@@ -46,6 +46,9 @@ https://templatemo.com/tm-542-new-vision
                         
                             <!-- Links -->
                             <ul class="navbar-nav mr-auto">
+                            <li class="nav-item ">
+                                <a class="nav-link tm-nav-link" href="dashboard">Dashboard <span class="sr-only">(current)</span></a>
+                              </li>
                               <li class="nav-item ">
                                 <a class="nav-link tm-nav-link" href="home">Home <span class="sr-only">(current)</span></a>
                               </li>
@@ -122,6 +125,7 @@ https://templatemo.com/tm-542-new-vision
                             <p>Please tell your friends about TemplateMo website. Thank you. Title / Text #666</p>
                         </div>
                     </article>
+                        <a class="tm-btn tm-btn-rounded tm-article-link" href="http://localhost:8000/products">Daftar Produk Kami</a>
                 </div>
                 
                 <div class="row tm-welcome-row-2">
