@@ -29,7 +29,7 @@ class MahasiswaController extends Controller
             ->with('kelas')
             ->paginate(5);
         return view('mahasiswas.index', compact('mahasiswas'));
-        with('i', (request()->input('page',1)-1) *5);
+        with('i', (request()->input('page',1) - 1) *5);
     }
 
     public function create()
