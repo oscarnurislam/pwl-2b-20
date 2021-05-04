@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MahasiswaController;
 use Illuminate\Http\Request;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,4 +15,11 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::resource('mahasiswas',MahasiswaController::class);
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+Route::resource('mahasiswa',MahasiswaController::class);
+Route::get('/cari', [MahasiswaController::class,'cari']);
+Route::get('/tampilkan', [MahasiswaController::class,'tampil']);
+Route::get('/nilai/{mahasiswa}', [MahasiswaController::class,'hasil'])->name('mahasiswa.nilai');

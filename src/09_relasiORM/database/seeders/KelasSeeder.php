@@ -14,7 +14,7 @@ class KelasSeeder extends Seeder
      */
     public function run()
     {
-        $kelas = [
+        $kelas=[
             ['nama_kelas' => 'TI 2A',],
             ['nama_kelas' => 'TI 2B',],
             ['nama_kelas' => 'TI 2C',],
@@ -23,7 +23,7 @@ class KelasSeeder extends Seeder
             ['nama_kelas' => 'TI 2F',],
             ['nama_kelas' => 'TI 2G',],
             ['nama_kelas' => 'TI 2H',],
-            ['nama_kelas' => 'TI 2I',],
+            ['nama_kelas' => 'TI 2H',],
         ];
         DB::table('kelas')->insert($kelas);
     }

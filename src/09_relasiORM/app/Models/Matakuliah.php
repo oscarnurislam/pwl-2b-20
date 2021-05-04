@@ -6,13 +6,13 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use App\Models\Mahasiswa;
 
-class Kelas extends Model
+class Matakuliah extends Model
 {
     use HasFactory;
-    protected $table='kelas'; //mendefinisikan bahwa model ini terkait dengan tebel kelas
+    protected $table = 'matakuliah';
 
     public function mahasiswa()
     {
-        return $this->hasMany(Mahasiswa::class);
+        return $this->belongsToMany(Mahasiswa::class)->withPivot('nilai');
     }
 }
